@@ -2,7 +2,7 @@ import mysql.connector
 import requests
 import datetime
 import time
-db=mysql.connector.connect(host="localhost",user="root",password="sql@sql7171",database="p4_monitoring")
+db=mysql.connector.connect(host="localhost",user="root",password="123#456",database="p4_monitoring")
 cursor=db.cursor()
 print("connected to mySQL")
 #to show if the databse is actually conneceted to to the python code
