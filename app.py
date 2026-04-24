@@ -12,7 +12,7 @@ def get_metrics():
     return{"cpu_usage":cpu,"memory_usage":memory,"disk_usage":disk,"network_traffic":network}
 
 def get_database_connection():
-    return mysql.connector.connect(host="localhost",user="root",password="sql@sql7171",database="p4_monitoring")
+    return mysql.connector.connect(host="localhost",user="root",password="123#456",database="p4_monitoring")
 @app.get("/")
 def home():
     return{"message":"API is working"}
