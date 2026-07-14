@@ -22,7 +22,7 @@ def health():
 @app.get("/latest")
 def get_latest():
     try:
-        db=mysql.connector.connect(host="localhost",user="root",password="sql@sql7171",database="p4_monitoring")
+        db=mysql.connector.connect(host="localhost",user="root",password="123#456",database="p4_monitoring")
         cursor=db.cursor()
         query="select * from server_metrics order by timestamps desc limit 1"
         cursor.execute(query)
